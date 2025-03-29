@@ -4,7 +4,8 @@ let counter = document.getElementById('counter');
 let incrementBtn = document.getElementById('incrementBtn');
 
 incrementBtn.addEventListener('click',()=>{
+	alert(count);
 	count++;
 	counter.textContent = count;
-	alert(count);
+	
 })
